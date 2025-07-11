@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-06-25T10:05:32Z",
+    "source_ip": "192.168.1.101",
+    "event_type": "login_failed",
+    "level": "warning",
+    "message": "User admin failed login 3 times"
+  },
+  {
+    "timestamp": "2025-06-25T10:06:15Z",
+    "source_ip": "192.168.1.102",
+    "event_type": "login_success",
+    "level": "info",
+    "message": "User test logged in successfully"
+  }
+]
