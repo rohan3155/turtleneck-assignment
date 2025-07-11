@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from logs.views import home  # 👈 import the home view
+from logs.views import home  
 
 urlpatterns = [
-    path('', home),  # 👈 root URL for /
+    path('', home),  
     path('admin/', admin.site.urls),
     path('api/', include('logs.urls')),
 ]
